@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="NormalUser/base::Layout(~{::section})">
+<head>
+    <meta charset="UTF-8" />
+    <title>This is home page</title>
+
+</head>
+<body>
+<section>
+
+       <div class="container">
+           <div class="card mt-4">
+               <div class="card-body">
+                   <div class="container text-center">
+
+
+                   <img src="" style="height:200px; width:200px;" class="my_profile_picture"
+                        th:src="@{'/image/default.jpg'}" alt="profile photo" />
+                   </div>
+                   <div>
+                       <h1 class="text-center mt-3">
+                           Start Adding Your Contact
+                       </h1>
+                   </div>
+
+
+               </div>
+           </div>
+       </div>
+
+
+
+
+
+
+</section>
+</body>
+</html>
